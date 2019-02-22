@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+ <body bgcolor="yellow">
+  <center><h1>Login Form</h1></center>
+ <center> <form action="./login" method="post">
+      {% csrf_token %}
+<table> <table border="0">
+    <tr>
+        <td>    Enter username:<input type="text" name="un" size="10"></td>
+    </tr>
+        <tr>
+            <td>Enter password:<input type="password" name="pwd" size="10"></td>
+        </tr>
+    <tr><td> <input type="submit" value="login"></td></tr>
+</table>
+ </center>
+</form>
+  <center>  <tr><td><a href="./registerinput">click here to register</a></td></tr></center>
+ <center>  <tr><td><a href="./home">click here to home</a></td></tr></center>
+ </body>
+</html>
